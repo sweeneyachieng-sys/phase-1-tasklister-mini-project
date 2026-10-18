@@ -5,11 +5,11 @@ const createTaskForm = document.querySelector("#create-task-form");
 
   event.preventDefault();
 //get the task input from the event
-const task = event.target.elements["new-task-desription"].value;
+const task = event.target.elements["new-task-description"].value;
 
   buildToDo(task);
 
-  createTaskForm.reset();
+  // createTaskForm.reset();
  })
 
 function buildToDo(task){
